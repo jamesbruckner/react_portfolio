@@ -1,0 +1,162 @@
+#root {
+
+    margin: 0 auto;
+    text-align:center;
+    background-color: antiquewhite;
+}
+
+.hero {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav-list li {
+    margin: 15px;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-input {
+    margin: 15px;
+}
+
+.contact-text {
+    margin: 15px;
+    height: 100px;
+}
+
+.button {
+    margin-bottom: 25px;
+}
+
+.card-map {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+}
+
+.card-style {
+    margin: 20px 30px;
+}
+
+.card-container {
+    margin-top: 17px;
+}
+
+.card-container .card .card-body a {
+    margin: 0 5px;
+}
+
+.header {
+    width: 100%;
+    background-color: seagreen;
+    background: rgb(46,139,87);
+    /* background: linear-gradient(180deg, rgba(46,139,87,1) 67%, rgba(250,235,215,1) 100%, rgba(250,235,215,1) 100%); */
+}
+
+.footer {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 0;
+    background: rgb(46,139,87);
+    /* background: linear-gradient(0deg, rgba(46,139,87,1) 90%, rgba(250,235,215,1) 100%, rgba(250,235,215,1) 100%); */
+}
+
+.footer a {
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+
+.header a { 
+    text-decoration: none;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px black;
+    font-size: larger;
+    /* background: linear-gradient((to right, rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0))); */
+
+}
+
+.bio {
+    flex: 1;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+.container {
+    display: flex;
+}
+
+.skills {
+    max-width: 33%;
+    width: 100%;
+    margin-left: 33%;
+}
+
+
+.image {
+    /* justify-content: left; */
+    margin-right:5%;
+    margin-bottom: 25px; /*adjustable*/
+    /* margin-right: 50px; */
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.footer-text {
+    flex: 1;
+}
+
+.footer-text a {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.education {
+    max-width: 33%;
+    width: 100%;
+    margin-left: 33%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+h5, h2, h1, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
